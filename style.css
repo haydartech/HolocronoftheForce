@@ -1,0 +1,69 @@
+body{
+  background: black ;
+}
+
+.m{
+  color: #03e9f4;
+}
+
+.k{
+  color: #ff0506;
+}
+
+.y{
+  color: #06ff55;
+}
+
+a{
+  font-family: arial;
+  font-size: 12px;
+  margin: 10px;
+  text-decoration: none;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  min-height: 2vh;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bold;
+  transition: .5s;
+}
+
+.mavi{
+  color: #03e9f4;
+  background: black;
+}
+.yesil{
+  color: #06ff55;
+}
+
+.kirmizi{
+  color: #ff0506;
+}
+a.yesil:hover{
+  color : black;
+  background-color: #06ff55;
+  box-shadow: 0 0 5px #06ff55,
+              0 0 25px #06ff55,
+              0 0 50px #06ff55,
+              0 0 200px #06ff55;
+}
+
+a.mavi:hover{
+  color : black;
+  background-color: #03e9f4;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+}
+
+a.kirmizi:hover{
+  color : black;
+  background-color: #ff0506;
+  box-shadow: 0 0 5px #ff0506,
+              0 0 25px #ff5006,
+              0 0 50px #ff5006,
+              0 0 200px #ff0506;
+}
