@@ -1,0 +1,135 @@
+body{
+  background: black ;
+}
+
+.baslik{
+  text-shadow: 0 0 5px white,
+              0 0 25px white,
+              0 0 50px white,
+              0 0 200px white;
+  color : white;
+}
+
+.metin{
+  padding: 10px;
+}
+
+hr{
+  color: white;
+  box-shadow: 0 0 5px white,
+              0 0 25px white,
+              0 0 50px white,
+              0 0 200px white;
+}
+
+div{
+  background: black;
+  border-radius: 5px;
+  box-shadow: 0 0 10px white,
+              0 0 10px white inset;
+}
+
+.i{
+  padding: 20px 20px;
+}
+
+.m{
+  color: #03e9f4;
+  text-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+}
+
+.k{
+  color: #ff0506;
+  text-shadow:  0 0 5px #ff0506,
+              0 0 25px #ff5006,
+              0 0 50px #ff5006,
+              0 0 200px #ff0506;
+}
+
+.y{
+  color: #06ff55;
+  text-shadow: 0 0 5px #06ff55,
+              0 0 25px #06ff55,
+              0 0 50px #06ff55,
+              0 0 200px #06ff55;
+  
+}
+
+a{
+  font-family: arial;
+  font-size: 12px;
+  margin: 10px;
+  text-decoration: none;
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  min-height: 2vh;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: bold;
+  transition: .5s;
+}
+
+.mavi{
+  color: #03e9f4;
+  background: black;
+  box-shadow: none;
+  text-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+}
+
+.yesil{
+  color: #06ff55;
+  box-shadow: none;
+  background: black;
+  text-shadow: 0 0 5px #06ff55,
+              0 0 25px #06ff55,
+              0 0 50px #06ff55,
+              0 0 200px #06ff55;
+}
+
+.kirmizi{
+  color: #ff0506;
+  box-shadow: none;
+  background: black;
+  text-shadow:  0 0 5px #ff0506,
+              0 0 25px #ff5006,
+              0 0 50px #ff5006,
+              0 0 200px #ff0506;
+}
+
+a.yesil:hover{
+  color : black;
+  background-color: #06ff55;
+  box-shadow: 0 0 5px #06ff55,
+              0 0 25px #06ff55,
+              0 0 50px #06ff55,
+              0 0 200px #06ff55;
+  text-shadow: none;
+}
+
+a.mavi:hover{
+  color : black;
+  background-color: #03e9f4;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+  text-shadow: none;
+}
+
+a.kirmizi:hover{
+  color : black;
+  background-color: #ff0506;
+  box-shadow: 0 0 5px #ff0506,
+              0 0 25px #ff5006,
+              0 0 50px #ff5006,
+              0 0 200px #ff0506;
+  text-shadow: none;
+}
